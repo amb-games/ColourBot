@@ -1,6 +1,8 @@
 {
   "resources": [
     {"id":{"name":"spr_door_magenta","path":"sprites/spr_door_magenta/spr_door_magenta.yy",},"order":7,},
+    {"id":{"name":"obj_finish","path":"objects/obj_finish/obj_finish.yy",},"order":5,},
+    {"id":{"name":"spr_finish","path":"sprites/spr_finish/spr_finish.yy",},"order":5,},
     {"id":{"name":"spr_paint_black","path":"sprites/spr_paint_black/spr_paint_black.yy",},"order":0,},
     {"id":{"name":"spr_colourbot_magenta","path":"sprites/spr_colourbot_magenta/spr_colourbot_magenta.yy",},"order":6,},
     {"id":{"name":"obj_door_open","path":"objects/obj_door_open/obj_door_open.yy",},"order":4,},
@@ -31,7 +33,7 @@
     {"id":{"name":"spr_colourbot_red","path":"sprites/spr_colourbot_red/spr_colourbot_red.yy",},"order":1,},
     {"id":{"name":"spr_door_open","path":"sprites/spr_door_open/spr_door_open.yy",},"order":0,},
     {"id":{"name":"spr_colourbot_cyan","path":"sprites/spr_colourbot_cyan/spr_colourbot_cyan.yy",},"order":4,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"room_beginning","path":"rooms/room_beginning/room_beginning.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -45,7 +47,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"room_beginning","path":"rooms/room_beginning/room_beginning.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
