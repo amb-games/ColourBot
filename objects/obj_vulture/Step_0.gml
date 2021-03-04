@@ -1,7 +1,7 @@
-/// @description Chase obj_colourbot if not black
+/// @description Chase obj_colourbot if not black or white
 // You can write your code in this editor
 
-if !(obj_colourbot.red == false and obj_colourbot.green == false and obj_colourbot.blue == false) {
+if !(inst_is_colour(obj_colourbot, "black") or inst_is_colour(obj_colourbot, "white")){
 	move_towards_point(obj_colourbot.x, obj_colourbot.y, 0.5)
 }
 else {

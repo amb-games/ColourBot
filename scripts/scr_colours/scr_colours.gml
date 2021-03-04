@@ -18,28 +18,51 @@ function set_obj_colour(a) {
 	name = string_copy(obj_name, 4, string_length(obj_name))
 	spr_name = "spr" + name
 	
-	if a.red == false and a.green == false and a.blue == false {
+	if inst_is_colour(a, "black") {
 		sprite_index = asset_get_index(spr_name + "_black")	
 	}
-	else if a.red == true and a.green == false and a.blue == false {
+	else if inst_is_colour(a, "red") {
 		sprite_index = asset_get_index(spr_name + "_red")		
 	}
-	else if a.red == false and a.green == true and a.blue == false {
+	else if inst_is_colour(a, "green") {
 		sprite_index = asset_get_index(spr_name + "_green")	
 	}
-	else if a.red == false and a.green == false and a.blue == true {
+	else if inst_is_colour(a, "blue") {
 		sprite_index = asset_get_index(spr_name + "_blue")	
 	}
-	else if a.red == true and a.green == true and a.blue == false {
+	else if inst_is_colour(a, "yellow") {
 		sprite_index = asset_get_index(spr_name + "_yellow")	
 	}
-	else if a.red == true and a.green == false and a.blue == true {
+	else if inst_is_colour(a, "magenta") {
 		sprite_index = asset_get_index(spr_name + "_magenta")	
 	}
-	else if a.red == false and a.green == true and a.blue == true {
+	else if inst_is_colour(a, "cyan") {
 		sprite_index = asset_get_index(spr_name + "_cyan")	
 	}
-	else if a.red == true and a.green == true and a.blue == true {
+	else if inst_is_colour(a, "white") {
 		sprite_index = asset_get_index(spr_name + "_white")		
+	}
+}
+
+function inst_is_colour(a, str) {
+	switch(str) {
+	case "black":
+		return (a.red == false) and (a.green == false) and (a.blue == false)
+	case "red":
+		return (a.red == true) and (a.green == false) and (a.blue == false)
+	case "green":
+		return (a.red == false) and (a.green == true) and (a.blue == false)
+	case "blue":
+		return (a.red == false) and (a.green == false) and (a.blue == true)
+	case "yellow":
+		return (a.red == true) and (a.green == true) and (a.blue == false)
+	case "magenta":
+		return (a.red == true) and (a.green == false) and (a.blue == true)
+	case "cyan":
+		return (a.red == false) and (a.green == true) and (a.blue == true)
+	case "white":
+		return (a.red == true) and (a.green == true) and (a.blue == true)
+	default:
+		return false
 	}
 }
