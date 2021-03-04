@@ -14,7 +14,7 @@ function mix(a, b){
 
 function set_obj_colour(a) {
 	
-	obj_name = object_get_name(a)
+	obj_name = object_get_name(a.object_index)
 	name = string_copy(obj_name, 4, string_length(obj_name))
 	spr_name = "spr" + name
 	
@@ -24,22 +24,22 @@ function set_obj_colour(a) {
 	else if a.red == true and a.green == false and a.blue == false {
 		sprite_index = asset_get_index(spr_name + "_red")		
 	}
-	else if red == false and green == true and blue == false {
+	else if a.red == false and a.green == true and a.blue == false {
 		sprite_index = asset_get_index(spr_name + "_green")	
 	}
-	else if red == false and green == false and blue == true {
+	else if a.red == false and a.green == false and a.blue == true {
 		sprite_index = asset_get_index(spr_name + "_blue")	
 	}
-	else if red == true and green == true and blue == false {
+	else if a.red == true and a.green == true and a.blue == false {
 		sprite_index = asset_get_index(spr_name + "_yellow")	
 	}
-	else if red == true and green == false and blue == true {
+	else if a.red == true and a.green == false and a.blue == true {
 		sprite_index = asset_get_index(spr_name + "_magenta")	
 	}
-	else if red == false and green == true and blue == true {
+	else if a.red == false and a.green == true and a.blue == true {
 		sprite_index = asset_get_index(spr_name + "_cyan")	
 	}
-	else if red == true and green == true and blue == true {
+	else if a.red == true and a.green == true and a.blue == true {
 		sprite_index = asset_get_index(spr_name + "_white")		
 	}
 }
