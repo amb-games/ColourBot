@@ -9,6 +9,11 @@ if room == level8 {
 	
 	instance_create_depth(x, y, 10, obj_jigonblob)
 }
-else {
-	instance_create_depth(x, y, 10, obj_jigonblob)
+
+else if room == levelx2 {
+	if place_free(x, y+1) {
+		vspeed = 0.75	
+	}
 }
+
+instance_create_depth(x, y, 10, obj_jigonblob)

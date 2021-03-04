@@ -16,3 +16,11 @@ else if room == level9 {
 else if room == levelx {
 	path_start(path_wave, 0.5, path_action_stop, true)		
 }
+else if room == levelx1 {
+	hspeed = 0.75
+	vspeed = 0
+}
+else if room == levelx2 {
+	hspeed = 0
+	vspeed = 0.75
+}
