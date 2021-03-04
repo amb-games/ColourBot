@@ -88,8 +88,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7280e3a2-296d-43f6-a328-630432bf8d0e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "zuta",
-    "path": "folders/Sprites/zuta.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_zuta",
