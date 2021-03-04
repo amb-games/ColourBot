@@ -9,3 +9,10 @@ if room == level8 {
 	theta = 0;
 	theta_speed = -2;
 }
+
+else if room == level9 {
+	path_start(path_follow, 0.5, path_action_stop, true)		
+}
+else if room == levelx {
+	path_start(path_wave, 0.5, path_action_stop, true)		
+}

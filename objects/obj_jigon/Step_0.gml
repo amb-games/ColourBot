@@ -8,5 +8,7 @@ if room == level8 {
 	y = cy + lengthdir_y(r, theta);
 	
 	instance_create_depth(x, y, 10, obj_jigonblob)
-
+}
+else {
+	instance_create_depth(x, y, 10, obj_jigonblob)
 }
