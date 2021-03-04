@@ -112,8 +112,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c79f588e-50de-40ce-a180-a6fba9e8c867","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "jigon",
+    "path": "folders/Sprites/jigon.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_jigon",
