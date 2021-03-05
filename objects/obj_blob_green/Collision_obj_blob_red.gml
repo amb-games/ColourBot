@@ -1,4 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-mix(self, other)
-mix(other, self)
+instance_change(obj_blob_yellow, true)

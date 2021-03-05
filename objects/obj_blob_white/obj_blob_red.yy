@@ -1,0 +1,41 @@
+{
+  "spriteId": {
+    "name": "spr_blob_red",
+    "path": "sprites/spr_blob_red/spr_blob_red.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "obj_blob",
+    "path": "objects/obj_blob/obj_blob.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_blob","path":"objects/obj_blob/obj_blob.yy",},"parent":{"name":"obj_blob_red","path":"objects/obj_blob_red/obj_blob_red.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"red","path":"objects/obj_blob/obj_blob.yy",},"objectId":{"name":"obj_blob","path":"objects/obj_blob/obj_blob.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
+  "parent": {
+    "name": "blob",
+    "path": "folders/Objects/blob.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "obj_blob_red",
+  "tags": [],
+  "resourceType": "GMObject",
+}
