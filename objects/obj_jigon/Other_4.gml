@@ -24,3 +24,9 @@ else if room == levelx2 {
 	hspeed = 0
 	vspeed = 0.75
 }
+else if room == levelx3 {
+	path_start(path_rush, 1, path_action_stop, true)		
+}
+else if room == levelx4 {
+	path_start(path_jigondies, 1, path_action_stop, true)		
+}
