@@ -66,3 +66,33 @@ function inst_is_colour(a, str) {
 		return false
 	}
 }
+
+function has_same_colour(a, b) {
+	if inst_is_colour(a, "black") and inst_is_colour(b, "black") {
+		return true
+	}
+	else if inst_is_colour(a, "red") and inst_is_colour(b, "red") {
+		return true
+	}
+	else if inst_is_colour(a, "green") and inst_is_colour(b, "green") {
+		return true
+	}
+	else if inst_is_colour(a, "blue") and inst_is_colour(b, "blue") {
+		return true
+	}
+	else if inst_is_colour(a, "yellow") and inst_is_colour(b, "yellow") {
+		return true
+	}
+	else if inst_is_colour(a, "magenta") and inst_is_colour(b, "magenta") {
+		return true
+	}
+	else if inst_is_colour(a, "cyan") and inst_is_colour(b, "cyan") {
+		return true
+	}
+	else if inst_is_colour(a, "white") and inst_is_colour(b, "white") {
+		return true
+	}
+	else {
+		return false
+	}
+}
