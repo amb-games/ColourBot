@@ -182,8 +182,8 @@
     {"roomId":{"name":"levelxx3","path":"rooms/levelxx3/levelxx3.yy",},},
     {"roomId":{"name":"levelxx4","path":"rooms/levelxx4/levelxx4.yy",},},
     {"roomId":{"name":"levelxx5","path":"rooms/levelxx5/levelxx5.yy",},},
-    {"roomId":{"name":"room_end","path":"rooms/room_end/room_end.yy",},},
     {"roomId":{"name":"levelxx7","path":"rooms/levelxx7/levelxx7.yy",},},
+    {"roomId":{"name":"room_end","path":"rooms/room_end/room_end.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
