@@ -7,7 +7,7 @@ with instance_create_depth(x, y, 10, obj_colourbullet) {
 	blue = other.blue
 	
 	direction = 0
-	speed = 2
+	speed = 1
 }
 
 with instance_create_depth(x, y, 10, obj_colourbullet) {
@@ -16,7 +16,7 @@ with instance_create_depth(x, y, 10, obj_colourbullet) {
 	blue = other.blue
 	
 	direction = 90
-	speed = 2
+	speed = 1
 }
 
 with instance_create_depth(x, y, 10, obj_colourbullet) {
@@ -25,7 +25,7 @@ with instance_create_depth(x, y, 10, obj_colourbullet) {
 	blue = other.blue
 	
 	direction = 180
-	speed = 2
+	speed = 1
 }
 
 with instance_create_depth(x, y, 10, obj_colourbullet) {
@@ -34,5 +34,5 @@ with instance_create_depth(x, y, 10, obj_colourbullet) {
 	blue = other.blue
 	
 	direction = 270
-	speed = 2
+	speed = 1
 }
