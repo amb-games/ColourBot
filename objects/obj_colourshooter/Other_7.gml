@@ -36,3 +36,7 @@ with instance_create_depth(x, y, 10, obj_colourbullet) {
 	direction = 270
 	speed = 1
 }
+
+image_index = 0
+image_speed = 0
+alarm_set(0, 90)
