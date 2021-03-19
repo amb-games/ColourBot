@@ -9,6 +9,9 @@ if object_index == obj_wall {
 			break;
 		case 2:
 			sprite_index = spr_wall_world2
-			break;		
+			break;
+		case 3:
+			sprite_index = spr_wall_world3
+			break;
 	}
 }
