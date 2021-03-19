@@ -189,7 +189,6 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"levelzuta","path":"rooms/levelzuta/levelzuta.yy",},},
     {"roomId":{"name":"room_beginning","path":"rooms/room_beginning/room_beginning.yy",},},
     {"roomId":{"name":"level1","path":"rooms/level1/level1.yy",},},
     {"roomId":{"name":"level2","path":"rooms/level2/level2.yy",},},
@@ -238,9 +237,10 @@
     {"roomId":{"name":"levelxxxx5","path":"rooms/levelxxxx5/levelxxxx5.yy",},},
     {"roomId":{"name":"levelxxxx6","path":"rooms/levelxxxx6/levelxxxx6.yy",},},
     {"roomId":{"name":"levelxxxx7","path":"rooms/levelxxxx7/levelxxxx7.yy",},},
-    {"roomId":{"name":"room_end","path":"rooms/room_end/room_end.yy",},},
     {"roomId":{"name":"levelxxxx8","path":"rooms/levelxxxx8/levelxxxx8.yy",},},
     {"roomId":{"name":"levelxxxx9","path":"rooms/levelxxxx9/levelxxxx9.yy",},},
+    {"roomId":{"name":"levelzuta","path":"rooms/levelzuta/levelzuta.yy",},},
+    {"roomId":{"name":"room_end","path":"rooms/room_end/room_end.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

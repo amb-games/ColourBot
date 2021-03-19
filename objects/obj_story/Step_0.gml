@@ -6,3 +6,8 @@ if zuta_health <= 0 {
 	zuta_lives -= 1
 	instance_destroy(obj_blob_red)
 }
+
+if zuta_lives <= 0 {
+	zuta_lives = 1
+	room_goto_next()
+}
