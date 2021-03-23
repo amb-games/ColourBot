@@ -3,7 +3,7 @@
 
 
 if room == levelx3 {
-	if instance_number(obj_jigon) == 1 {
+	if instance_number(obj_jigon) >= 1 {
 		move_towards_point(obj_jigon.x, obj_jigon.y, 0.5)
 		image_angle = point_direction(x, y, obj_jigon.x, obj_jigon.y)
 	}
@@ -13,7 +13,7 @@ if room == levelx3 {
 	}
 }
 
-if room == levelx4 {
+else if room == levelx4 {
 	if instance_number(obj_jigon) == 1 {
 		move_towards_point(obj_jigon.x, obj_jigon.y, 1)
 		image_angle = point_direction(x, y, obj_jigon.x, obj_jigon.y)
