@@ -43,6 +43,7 @@
     {"id":{"name":"spr_colourbot_blue","path":"sprites/spr_colourbot_blue/spr_colourbot_blue.yy",},"order":3,},
     {"id":{"name":"spr_colourbot_yellow","path":"sprites/spr_colourbot_yellow/spr_colourbot_yellow.yy",},"order":5,},
     {"id":{"name":"spr_blob_blue","path":"sprites/spr_blob_blue/spr_blob_blue.yy",},"order":3,},
+    {"id":{"name":"spr_openingtitle","path":"sprites/spr_openingtitle/spr_openingtitle.yy",},"order":0,},
     {"id":{"name":"levelzuta","path":"rooms/levelzuta/levelzuta.yy",},"order":1,},
     {"id":{"name":"levelxx7","path":"rooms/levelxx7/levelxx7.yy",},"order":1,},
     {"id":{"name":"obj_colourshooter","path":"objects/obj_colourshooter/obj_colourshooter.yy",},"order":3,},
@@ -79,6 +80,7 @@
     {"id":{"name":"spr_allcolour_green","path":"sprites/spr_allcolour_green/spr_allcolour_green.yy",},"order":2,},
     {"id":{"name":"spr_colourshooter_green","path":"sprites/spr_colourshooter_green/spr_colourshooter_green.yy",},"order":2,},
     {"id":{"name":"spr_bg_world3","path":"sprites/spr_bg_world3/spr_bg_world3.yy",},"order":0,},
+    {"id":{"name":"spr_leftmousetomove","path":"sprites/spr_leftmousetomove/spr_leftmousetomove.yy",},"order":1,},
     {"id":{"name":"levelxx3","path":"rooms/levelxx3/levelxx3.yy",},"order":22,},
     {"id":{"name":"levelx9","path":"rooms/levelx9/levelx9.yy",},"order":18,},
     {"id":{"name":"spr_zuta_damaged2","path":"sprites/spr_zuta_damaged2/spr_zuta_damaged2.yy",},"order":2,},
@@ -278,6 +280,7 @@
     {"folderPath":"folders/Rooms/world3 (zuta's castle).yy","order":26,"resourceVersion":"1.0","name":"world3 (zuta's castle)","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/world3.yy","order":16,"resourceVersion":"1.0","name":"world3","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Rooms/world4.yy","order":27,"resourceVersion":"1.0","name":"world4","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/story.yy","order":17,"resourceVersion":"1.0","name":"story","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
