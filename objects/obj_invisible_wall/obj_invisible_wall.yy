@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_invisble_pain_wall",
-    "path": "sprites/spr_invisble_pain_wall/spr_invisble_pain_wall.yy",
+    "name": "spr_invisble_wall",
+    "path": "sprites/spr_invisble_wall/spr_invisble_wall.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_wall",
+    "path": "objects/obj_wall/obj_wall.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_invisible_pain_wall","path":"objects/obj_invisible_pain_wall/obj_invisible_pain_wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_invisible_wall","path":"objects/obj_invisible_wall/obj_invisible_wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +33,7 @@
     "path": "folders/Objects/world.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_invisible_pain_wall",
+  "name": "obj_invisible_wall",
   "tags": [],
   "resourceType": "GMObject",
 }
