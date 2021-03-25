@@ -4,3 +4,6 @@
 if inst_is_colour(obj_colourbot, "red") {
 	visible = true
 }
+else {
+	visible = false
+}
