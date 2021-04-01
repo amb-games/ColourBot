@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-direction = (direction - 180) mod 360
-
+hspeed = -hspeed
+vspeed = -vspeed
 
