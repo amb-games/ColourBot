@@ -1,8 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-zuta_lives = 7
-zuta_health = 200
-
-game_save("Save.dat")
-
+window_set_cursor(cr_handpoint)
+image_index = 1
