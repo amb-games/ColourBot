@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_menu_quit",
-    "path": "sprites/spr_menu_quit/spr_menu_quit.yy",
+    "name": "spr_menu_backtomenu",
+    "path": "sprites/spr_menu_backtomenu/spr_menu_backtomenu.yy",
   },
   "solid": false,
   "visible": true,

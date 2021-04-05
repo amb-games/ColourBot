@@ -2,5 +2,5 @@
 // You can write your code in this editor
 
 if !locked {
-	room_goto(level)
+	room_goto(assigned_level)
 }

@@ -168,8 +168,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "world4",
-    "path": "folders/Rooms/world4.yy",
+    "name": "world3 (zuta's castle)",
+    "path": "folders/Rooms/world3 (zuta's castle).yy",
   },
   "resourceVersion": "1.0",
   "name": "levelzuta",
