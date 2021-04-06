@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_menu_restart",
-    "path": "sprites/spr_menu_restart/spr_menu_restart.yy",
+    "name": "spr_menu_begin",
+    "path": "sprites/spr_menu_begin/spr_menu_begin.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,7 +33,7 @@
     "path": "folders/Objects/menu.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_menu_restart",
+  "name": "obj_menu_begin",
   "tags": [],
   "resourceType": "GMObject",
 }
