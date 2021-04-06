@@ -3,7 +3,7 @@
 
 image_speed = 0;
 
-if !locked {
+if obj_levelcontroller.level_is_available[room] {
 	image_index = 0	
 }
 else {

@@ -8,6 +8,7 @@
     {"id":{"name":"spr_menu_fullscreen","path":"sprites/spr_menu_fullscreen/spr_menu_fullscreen.yy",},"order":2,},
     {"id":{"name":"obj_finish","path":"objects/obj_finish/obj_finish.yy",},"order":2,},
     {"id":{"name":"levelx7","path":"rooms/levelx7/levelx7.yy",},"order":16,},
+    {"id":{"name":"obj_levelcontroller","path":"objects/obj_levelcontroller/obj_levelcontroller.yy",},"order":12,},
     {"id":{"name":"levelxxxx2","path":"rooms/levelxxxx2/levelxxxx2.yy",},"order":0,},
     {"id":{"name":"spr_finish","path":"sprites/spr_finish/spr_finish.yy",},"order":4,},
     {"id":{"name":"levelx4","path":"rooms/levelx4/levelx4.yy",},"order":13,},
