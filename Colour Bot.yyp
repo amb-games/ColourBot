@@ -73,6 +73,7 @@
     {"id":{"name":"spr_enemy_white","path":"sprites/spr_enemy_white/spr_enemy_white.yy",},"order":7,},
     {"id":{"name":"levelxxxx1","path":"rooms/levelxxxx1/levelxxxx1.yy",},"order":15,},
     {"id":{"name":"spr_level2","path":"sprites/spr_level2/spr_level2.yy",},"order":1,},
+    {"id":{"name":"spr_helpscreen","path":"sprites/spr_helpscreen/spr_helpscreen.yy",},"order":18,},
     {"id":{"name":"spr_paint_blue","path":"sprites/spr_paint_blue/spr_paint_blue.yy",},"order":4,},
     {"id":{"name":"spr_paint_magenta","path":"sprites/spr_paint_magenta/spr_paint_magenta.yy",},"order":6,},
     {"id":{"name":"obj_blob_green","path":"objects/obj_blob_green/obj_blob_green.yy",},"order":3,},
