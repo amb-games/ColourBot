@@ -1,11 +1,11 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_rooms(){
-	level_list = []
+	level_list = ds_map_create()
 	
 	
 	for(var i = 0; i < room_last; i++){
-		level_list.append({"level" : room_get_name(i), "unlocked" : false});
+		ds_map_add(level_list, room_get_name(i), false)
 	}
 }
 

@@ -3,7 +3,7 @@
 
 image_speed = 0;
 
-if obj_levelcontroller.level_is_available[room] {
+if ds_map_find_value(room_get_name(level_list), assigned_level) {
 	image_index = 0	
 }
 else {
