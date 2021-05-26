@@ -16,10 +16,12 @@ if room == levelxxx9 {
 		other.y = 32
 	}
 	else {
+		audio_play_sound(snd_finish, 10, false)
 		room_goto_next()
 	}
 }
 
 else if other.visible == true {
+	audio_play_sound(snd_finish, 10, false)
 	room_goto_next()
 }

@@ -11,6 +11,12 @@ instance_create_depth(416, 0, 0, obj_menu_backtomenu)
 window_set_cursor(cr_cross)
 
 if room == levelzuta {
-	audio_stop_sound(snd_zutastheme)
 	audio_play_sound(snd_zutastheme, 10, true)
+}
+else if room == room_end {
+	audio_play_sound(snd_colourbottheme, 10, true)
+}
+else {
+	audio_stop_sound(snd_zutastheme)
+	audio_stop_sound(snd_colourbottheme)
 }
