@@ -10,6 +10,8 @@ function mix(a, b){
 		b.green = false
 		b.blue = false
 	}
+	
+	
 }
 
 function set_obj_colour(a) {
@@ -94,5 +96,26 @@ function has_same_colour(a, b) {
 	}
 	else {
 		return false
+	}
+}
+
+function play_colour_sound(a) {
+	
+	if a.red {
+		if !audio_is_playing(snd_red) {
+			audio_play_sound(snd_red, 10, false)
+		}
+	}
+	
+	if a.green {
+		if !audio_is_playing(snd_green) {
+			audio_play_sound(snd_green, 10, false)
+		}
+	}
+	
+	if a.blue {
+		if !audio_is_playing(snd_blue) {
+			audio_play_sound(snd_blue, 10, false)
+		}
 	}
 }
