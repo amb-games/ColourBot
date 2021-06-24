@@ -1,7 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-zuta_lives = 7
+audio_stop_sound(snd_zutastheme)
+audio_stop_sound(snd_colourbottheme)
+
+zuta_lives = 3 // 7
 zuta_health = 200
 
 instance_create_depth(288, 0, 0, obj_menu_restart)
@@ -15,8 +18,4 @@ if room == levelzuta {
 }
 else if room == room_end {
 	audio_play_sound(snd_colourbottheme, 10, true)
-}
-else {
-	audio_stop_sound(snd_zutastheme)
-	audio_stop_sound(snd_colourbottheme)
 }

@@ -15,3 +15,7 @@ else if room == levelxxx6 {
 	alarm_set(0, 2400)
 }
 
+else if room == levelxxxx9 {
+	visible = false
+	alarm_set(0, 4800)
+}
