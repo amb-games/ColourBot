@@ -4,7 +4,7 @@
 audio_stop_sound(snd_zutastheme)
 audio_stop_sound(snd_colourbottheme)
 
-zuta_lives = 3 // 7
+zuta_lives = 7
 zuta_health = 200
 
 instance_create_depth(288, 0, 0, obj_menu_restart)
