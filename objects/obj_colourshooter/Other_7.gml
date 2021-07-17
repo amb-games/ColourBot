@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+audio_play_sound(snd_shooter, 10, false)
+
+
 with instance_create_depth(x, y, 10, obj_colourbullet) {
 	red = other.red
 	green = other.green

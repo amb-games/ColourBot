@@ -14,6 +14,7 @@ if can_execute {
 	}
 
 	if can_transition == true {
+		audio_play_sound(snd_finish, 10, false)
 		room_goto_next()
 	}
 }

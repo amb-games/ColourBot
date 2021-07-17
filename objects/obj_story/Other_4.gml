@@ -3,6 +3,7 @@
 
 audio_stop_sound(snd_zutastheme)
 audio_stop_sound(snd_colourbottheme)
+audio_stop_sound(snd_disco)
 
 zuta_lives = 7
 zuta_health = 200
@@ -18,4 +19,7 @@ if room == levelzuta {
 }
 else if room == room_end {
 	audio_play_sound(snd_colourbottheme, 10, true)
+}
+else if instance_number(obj_discoball) >= 1 {
+	audio_play_sound(snd_disco, 10, true)
 }
