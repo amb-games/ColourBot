@@ -232,7 +232,7 @@
   },
   "parent": {
     "name": "world2",
-    "path": "folders/Rooms/world2.yy",
+    "path": "folders/Rooms/story/world2.yy",
   },
   "resourceVersion": "1.0",
   "name": "levelxx8",

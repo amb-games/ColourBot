@@ -203,7 +203,7 @@
   },
   "parent": {
     "name": "world1",
-    "path": "folders/Rooms/world1.yy",
+    "path": "folders/Rooms/story/world1.yy",
   },
   "resourceVersion": "1.0",
   "name": "level5",

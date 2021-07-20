@@ -360,7 +360,7 @@
   },
   "parent": {
     "name": "world3 (zuta's castle)",
-    "path": "folders/Rooms/world3 (zuta's castle).yy",
+    "path": "folders/Rooms/story/world3 (zuta's castle).yy",
   },
   "resourceVersion": "1.0",
   "name": "levelxxxx5",
