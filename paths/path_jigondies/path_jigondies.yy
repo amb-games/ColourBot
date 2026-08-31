@@ -1,18 +1,19 @@
 {
-  "kind": 0,
-  "closed": false,
-  "precision": 4,
-  "points": [
+  "$GMPath":"",
+  "%Name":"path_jigondies",
+  "closed":false,
+  "kind":0,
+  "name":"path_jigondies",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
     {"speed":100.0,"x":128.0,"y":96.0,},
     {"speed":100.0,"x":224.0,"y":96.0,},
     {"speed":100.0,"x":224.0,"y":352.0,},
   ],
-  "parent": {
-    "name": "Paths",
-    "path": "folders/Paths.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "path_jigondies",
-  "tags": [],
-  "resourceType": "GMPath",
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
 }
